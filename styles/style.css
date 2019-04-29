@@ -10,11 +10,10 @@ html, body {
   margin-right: 8px;
 	background-color: #f3f2ee;
 	font-family: "PT Serif", 'Times New Roman', Times, serif;
-	color: #1f0909;
 	line-height: 1.5em;
 }
 
-h1, h5, p {
+h5, p {
      margin-top: 1rem;
      margin-bottom: 1rem;
 }
@@ -22,14 +21,19 @@ h1, h5, p {
 h2, h5 {
 	font-weight: bold;
 }
+
 h2 {
 	font-size: 1.3125em;
 	line-height: 1.15;
 	margin-top: 2.285714em;
-	margin-bottom: 1.15em;
 }
+
 h5 {
 	font-size: 1em;
+}
+
+p, h2, h5 {
+	margin-bottom: 1.5em;
 }
 
 a {
@@ -37,14 +41,8 @@ a {
 	color: #065588;
   cursor: pointer;
 }
-a:hover,
-a:active {
+a:hover, a:active {
 	text-decoration: underline;
-}
-p,
-h2,
-h5 {
-	margin-bottom: 1.5em;
 }
 
 hr {
