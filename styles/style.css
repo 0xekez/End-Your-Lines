@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: normal;
@@ -12,7 +12,8 @@ url('./newsprint/pt-serif-v9-latin-regular.woff') format('woff');
     font-weight: bold;
     src: local('PT Serif'), local('PTSerif-Bold'),
 url('./newsprint/pt-serif-v9-latin-700.woff') format('woff');
-}
+} */
+/* @import url('https://fonts.googleapis.com/css?family=PT+Serif'); */
 
 html {
 	font-size: 16px;
@@ -30,13 +31,12 @@ html, body {
 	line-height: 1.5em;
 }
 
-.md-rawblock, h1, h5, p {
+h1, h5, p {
      margin-top: 1rem;
      margin-bottom: 1rem;
 }
 
-h2,
-h5 {
+h2, h5 {
 	font-weight: bold;
 }
 h2 {
